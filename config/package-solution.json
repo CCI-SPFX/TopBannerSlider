@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "HeroSection",
+    "id": "aac08ee7-e087-401f-a92f-e2a87a977842",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Danijs",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Hero Webpart description"
+      },
+      "longDescription": {
+        "default": "Hero Webpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "lHeroSection Feature",
+        "description": "The feature that activates elements of the lab-2 solution.",
+        "id": "fc859f1a-b967-4c6e-ad29-d0f024247535",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/HeroSection.sppkg"
+  }
+}
