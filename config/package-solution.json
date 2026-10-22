@@ -3,9 +3,9 @@
   "solution": {
     "name": "HeroSection",
     "id": "aac08ee7-e087-401f-a92f-e2a87a977842",
-    "version": "1.0.0.0",
+    "version": "1.2.2.1",
     "includeClientSideAssets": true,
-    "skipFeatureDeployment": true,
+    "skipFeatureDeployment": false,
     "isDomainIsolated": false,
     "developer": {
       "name": "Danijs",
@@ -30,7 +30,7 @@
         "title": "lHeroSection Feature",
         "description": "The feature that activates elements of the lab-2 solution.",
         "id": "fc859f1a-b967-4c6e-ad29-d0f024247535",
-        "version": "1.0.0.0"
+        "version": "1.0.0.1"
       }
     ]
   },

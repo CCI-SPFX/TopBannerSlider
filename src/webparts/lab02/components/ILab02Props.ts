@@ -3,6 +3,8 @@ export interface ILab02Props {
   slider:boolean;
   listName:string;
   siteUrl:string;
+  timer:number;
+  showContent:boolean;
 
   contentAlignment:string;
   verticalAlign:string;
@@ -12,7 +14,7 @@ export interface ILab02Props {
   headingShow:boolean;
 
   description:string;
-  descriptionSize:string;
+  descriptionSize:string; 
   descriptionColor:string;
   descriptionShow:boolean;
 
@@ -26,6 +28,7 @@ export interface ILab02Props {
 
   imgUrl:string; 
   bgType:string;
+  aspectRatio:string;
   itemHeight:string;
  
 }

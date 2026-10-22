@@ -3,24 +3,60 @@
   "id": "aac08ee7-e087-401f-a92f-e2a87a977842",
   "alias": "HeroSection",
   "componentType": "WebPart",
- 
+
   "version": "*",
   "manifestVersion": 2,
- "supportsFullBleed": true, 
- "requiresCustomScript": false,
+  "supportsFullBleed": true,
+  "requiresCustomScript": false,
 
-  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportedHosts": [
+    "SharePointWebPart",
+    "TeamsPersonalApp",
+    "TeamsTab",
+    "SharePointFullPage"
+  ],
   "supportsThemeVariants": true,
 
-  "preconfiguredEntries": [{
-    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",  
-    "group": { "default": "Advanced" },
-    "title": { "default": "Hero Section" },
-    "description": { "default": "This section can be used as a customizable banner or slider at the top of the site. You can easily update its style and content through the web part property pane."},
-    "officeFabricIconFontName": "Picture",
-    "properties": {
-      "description": "Hero Section"
-    }
-  }]
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": { "default": "Advanced" },
+      "title": { "default": "Hero Section" },
+      "description": {
+        "default": "This section can be used as a customizable banner or slider at the top of the site. You can easily update its style and content through the web part property pane."
+      },
+      "officeFabricIconFontName": "Picture",
+      "properties": {
+        "heroSlider": false,
+        "slidesList": "",
+        "timer": 4,
 
+        "contentAlign": "Left",
+        "verticalAlignment": "Middle",
+
+        "headingValue": "Hello World",
+        "headingSize": "42px",
+        "headingColor": "#ffffff",
+        "showHeading": false,
+
+        "descValue": "Description text goes here",
+        "descSize": "18px",
+        "descColor": "#ffffff",
+        "showDesc": false,
+
+        "buttonText": "Button Text",
+        "buttonLink": "#",
+        "buttonTextSize": "16px",
+        "buttonTextColor": "#ffffff",
+        "buttonBgColor": "#0078d4",
+        "buttonRadius": "4px",
+        "showButton": false,
+
+        "imageUrl": "",
+        "bgTheme": "None",
+        "itemHeight": "400px",
+        "aspectRatio": "22/6"
+      }
+    }
+  ]
 }
